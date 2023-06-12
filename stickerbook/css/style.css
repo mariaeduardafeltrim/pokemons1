@@ -1,0 +1,43 @@
+:root {
+    --primary-color: rgb (255 0 0);
+    --secondary-color: rgb (0 255 0);
+    --tertiary-color: rgb (0 0 255);
+    --back-color: hsl(0, 4%, 59%);
+}
+
+* {
+    background: var(--back-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+main {
+     display: flex;
+     justify-content: space;
+     width: 80%;
+     margin: 0 auto;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    background: gold;
+    margin-bottom: 20px;
+    text-align:start;
+    
+}
+
+#red {
+    background: red;
+}
+#green {
+    background: green;
+}
+#blue {
+    background: blue;
+}
